@@ -9,7 +9,7 @@ export default function Footer() {
       <strong className="font-head text-[22px] font-bold text-white">Turning Ideas Into Brands People Notice.</strong>
       <div className={row}>{C.nav.map((n) => <Link key={n.to} to={n.to}>{n.label}</Link>)}</div>
       <div className={row}>{C.social.map((s) => <a key={s.label} href={s.href}>{s.label}</a>)}</div>
-      <span>© 2026 {C.name}. All Rights Reserved.</span>
+     <span>© {new Date().getFullYear()} {C.name}. All Rights Reserved.</span>
     </footer>
   )
 }

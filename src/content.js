@@ -1,7 +1,7 @@
 // All website text lives here. Edit freely.
 export const C = {
   name: 'Agency Name',            // <- put your agency name
-  email: 'hello@youragency.com',  // <- contact form sends to this email
+  email: 's4sksamimuddin786@gmail.com',  // <- contact form sends to this email
   tagline: '3 Minds. 1 Vision. Brands That Get Noticed.',
   nav: [
     { label: 'Home', to: '/' }, { label: 'About', to: '/about' }, { label: 'Services', to: '/services' },
