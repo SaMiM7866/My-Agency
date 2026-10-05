@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Design tokens: use as font-head, font-body, text-gold, bg-pur ... */
+@theme {
+  --font-head: 'Syne', sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --color-pur: #7c5cff;
+  --color-gold: #f5b93a;
+  --animate-marquee: marquee 28s linear infinite;
+  @keyframes marquee { to { transform: translateX(-50%); } }
+}
+
+html { scroll-behavior: smooth; }
+body { @apply overflow-x-hidden bg-black font-body text-white; }
